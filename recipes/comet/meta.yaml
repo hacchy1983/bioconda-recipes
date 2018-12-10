@@ -1,6 +1,6 @@
 {% set name = "comet-ms" %}
-{% set version = "2018012" %}
-{% set sha256_src_bin_bundle = "5ca42762884b74a62b21e6013e302cd291663361788a3a23ab195254976dbb99" %}
+{% set version = "2018013" %}
+{% set sha256_src_bin_bundle = "f02af89681ada994b8260c66549ed94509b40d3ad05e9663b26931abfe0b9dd6" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256_src_bin_bundle }}
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
